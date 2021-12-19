@@ -1,0 +1,94 @@
+/*****
+* Elementos que se usan en los 3 archivos.html
+******/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #E4F4FA;
+}
+
+/*Titulos y el texto*/
+h2{
+    padding-top: 50px;
+}
+
+.text{
+    width: 100%;
+    z-index: -1;
+    padding: 70px 500px;
+    text-align: center;
+  }
+
+
+/*Menu*/
+.menu{
+  background: #6CB8D6;
+  position: fixed;
+  width: 100%;
+}
+.menu nav{
+  position: relative;
+  display: flex;
+  max-width: calc(100% - 200px);
+  margin: 0 auto;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .contenido{
+  display: flex;
+  align-items: center;
+}
+nav .contenido .links{
+  margin-left: 80px;
+  display: flex;
+}
+.contenido .empresa{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+}
+.contenido .links li{
+  list-style: none;
+  line-height: 70px;
+}
+.contenido .links li a{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 9px 17px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.contenido .links li a:hover{
+  background: #7FCEED;
+}
+
+/*imagen*/
+img{
+    display:block;
+    margin:auto;
+    padding-top: 10px;
+}
+
+/*Contacto*/
+
+.dato{
+     margin-left: 50px;
+     padding-bottom: 25px;
+}
+
+.icon{
+    color: #6CB8D6;
+    width: 25px;
+    height: 25px;
+}
